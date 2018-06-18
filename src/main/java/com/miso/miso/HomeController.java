@@ -36,4 +36,9 @@ public class HomeController {
 		return "home";
 	}
 	
+	@RequestMapping(value="content1")
+	public void content1(){
+		logger.info("content1");
+	}
+	
 }
